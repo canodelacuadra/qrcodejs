@@ -30,12 +30,10 @@
 <form class="mb-3">
   <div class="mb-3">
   <label  class='form-label' for="data">Introduce la url para generar el  qr</label>
-    <input class="form-control" placeholder='https://'type="text" id="data">
+    <input class="form-control" placeholder='https://' type="text" id="data" >
     </div>
-    <!-- 
-Esta expresión regular comprueba que la URL comienza con http:// o https://, que contiene al menos un carácter alfanumérico o guion, y que termina con un punto seguido de dos a seis caracteres alfanuméricos. -->
-    <button class="btn btn-primary" type="button" id="genqr">Generar QR</button>
-    
+     <button class="btn btn-primary" type="button" id="genqr">Generar QR</button>
+        <button class="btn btn-secondary" type="button" id="cleanqr">Limpiar QR</button>
 </form>
     <div id="qrcode"></div>
 
